@@ -25,6 +25,7 @@ services:
       - HOST=db
       - USER=odoo
       - PASSWORD=odoo
+    command: -- --db_host=db --db_user=odoo --db_password=odoo --http-interface=0.0.0.
 
 volumes:
   odoo-db-data:
